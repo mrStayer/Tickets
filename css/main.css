@@ -1,0 +1,52 @@
+/* */
+
+/* e31e25 */
+
+.zal input[type="checkbox"]{
+	opacity: 0;
+}
+.checkbox{ display: inline-block; position: absolute; }
+.zal label{
+	font-size: 12px;
+	line-height: 15px;
+	font-weight: bold;
+	user-select: none;
+	text-align: center;
+	height: 15px;
+	width: 15px;
+	padding: 2px;
+	margin: 3px 2px; 
+	cursor: pointer;
+	display: inline-block;
+	border: 1px solid #fff;
+	background-color: #fff;
+}
+.zal label:focus{
+		 outline: none;
+}
+.zal input[type="checkbox"]:checked+label{
+	background-color: #ff3333;
+}
+label{
+	/* transform: rotate(5deg) */
+}
+
+.outer{width: 1000px; height: 1280px; margin: 0 auto; position: relative; 
+	background-color: #ccc;
+	/* background-image: url(/img/seating-plan-960x1280.jpg)  */
+	}
+.outer .plan{  
+    width: 1000px;
+    height: 820px;
+	margin-top: 100px;
+   	border: 1px solid #000;
+	}
+	
+	
+.row{
+	height: 50px;
+	margin: 0 auto;
+	border: 1px solid red;
+	position: relative;
+}
+/* .checkbox{ position: absolute; } */
